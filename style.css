@@ -1,0 +1,16 @@
+/* Plank Challenge legal pages. System fonts only: no requests to anyone
+   else's servers from a privacy policy. */
+:root { --bg: #000; --surface: #1C1C1E; --text: #fff; --muted: rgba(255,255,255,.66); --accent: #FFD93D; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px 80px; }
+.poster { background: #3D3DF5; border-radius: 28px; padding: 28px 24px; margin-bottom: 32px; }
+.poster h1 { margin: 0; font: 800 44px/0.95 Impact, "Arial Narrow Bold", sans-serif; text-transform: uppercase; letter-spacing: .5px; }
+.poster p { margin: 10px 0 0; color: rgba(255,255,255,.85); }
+h2 { font-size: 21px; margin: 36px 0 8px; }
+p, li { color: var(--muted); }
+strong { color: var(--text); }
+a { color: var(--accent); }
+ul { padding-left: 20px; }
+.card { background: var(--surface); border-radius: 20px; padding: 18px 20px; margin: 12px 0; }
+nav { margin-top: 48px; display: flex; gap: 20px; flex-wrap: wrap; }
